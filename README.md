@@ -1,8 +1,13 @@
-# React + Vite
+# Cannon-crush
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This repository will help you to create a 2d cannon ball game in react js with live user integration 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Integration 
+This website used the technology of js canvas element with the help of front-end framework react js.
+
+## Website
+(https://anuj-30.github.io/Cannon-crush/)
+
+## LinkedIn
+(https://www.linkedin.com/in/anuj-bhardwaj-513589314?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app)
