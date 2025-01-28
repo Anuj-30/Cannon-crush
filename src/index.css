@@ -2,3 +2,25 @@
 body{
     overflow: hidden;
 }
+@media (max-width: 1024px), (hover: none) and (pointer: coarse) {
+    body::before {
+      content: "Sorry! The site is only available is desktop";
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: white;
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      padding: 20px;
+      text-align: center;
+    }
+    
+    body > *:not(body::before) {
+      display: none !important;
+    }
+  }

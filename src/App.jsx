@@ -43,8 +43,8 @@
       animate(); // Restart animation
     };
    
-      const shootingSound = new Audio('/shooting1.mp3');
-      const gameOverSound = new Audio('/gameover.mp3');
+    const shootingSound = new Audio(`${import.meta.env.BASE_URL || ''}/shooting1.mp3`);
+    const gameOverSound = new Audio(`${import.meta.env.BASE_URL || ''}/gameover.mp3`);
     
       useEffect(() => {
         // Retrieve high score from localStorage
